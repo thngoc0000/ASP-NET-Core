@@ -1,0 +1,206 @@
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\appsettings.Development.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\appsettings.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.staticwebassets.runtime.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.staticwebassets.endpoints.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.exe
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.deps.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.runtimeconfig.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.dll
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.pdb
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.csproj.AssemblyReference.cache
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.GeneratedMSBuildEditorConfig.editorconfig
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.AssemblyInfoInputs.cache
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.AssemblyInfo.cs
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.csproj.CoreCompileInputs.cache
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.MvcApplicationPartsAssemblyInfo.cache
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.RazorAssemblyInfo.cache
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.RazorAssemblyInfo.cs
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\rjimswa.dswa.cache.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\scopedcss\bundle\Real-time Collaboration Dashboard.styles.css
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\scopedcss\projectbundle\Real-time Collaboration Dashboard.bundle.scp.css
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\x6pc8cfdak-{0}-b9sayid5wm-b9sayid5wm.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\jyudtmspkm-{0}-61n19gt1b8-61n19gt1b8.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\6vb8njf2tc-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\zpmkah2jb0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\hpwmzmtoyn-{0}-c2jlpeoesf-c2jlpeoesf.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\11gyrh8sff-{0}-erw9l3u2r3-erw9l3u2r3.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\xsuekjr615-{0}-aexeepp0ev-aexeepp0ev.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\zuvwtac78v-{0}-d7shbmvgxk-d7shbmvgxk.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\bp0d70cow1-{0}-ausgxo2sd3-ausgxo2sd3.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\znuafp4gak-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\cqo0cvqqwn-{0}-cosvhxvwiu-cosvhxvwiu.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\lk7ay0nxlr-{0}-ub07r2b239-ub07r2b239.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\jdfw68zzot-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\yklikeu1lj-{0}-b7pk76d08c-b7pk76d08c.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\ihs2m2llvu-{0}-fsbi9cje9m-fsbi9cje9m.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\al1iu7jyqb-{0}-rzd6atqjts-rzd6atqjts.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\4hp4p0eucf-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\y66g8k6it4-{0}-dxx9fxp4il-dxx9fxp4il.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\amuo90kh0v-{0}-jd9uben2k1-jd9uben2k1.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\btmjpo4m4q-{0}-khv3u5hwcm-khv3u5hwcm.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\0yskqf7zo2-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\2kmc0e6ohn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\bhd4spb7jy-{0}-c2oey78nd0-c2oey78nd0.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\jswgp5cwrp-{0}-tdbxkamptv-tdbxkamptv.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\yem05o1puk-{0}-j5mq2jizvt-j5mq2jizvt.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\6x38vckpwx-{0}-06098lyss8-06098lyss8.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\lz6jb16vue-{0}-nvvlpmu67g-nvvlpmu67g.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\hmfge6p5u2-{0}-s35ty4nyc5-s35ty4nyc5.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\m0hhrq111m-{0}-pj5nd1wqec-pj5nd1wqec.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\7776rgcp4q-{0}-46ein0sx1k-46ein0sx1k.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\cn90nudwdq-{0}-v0zj4ognzu-v0zj4ognzu.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\d2lcd23mw8-{0}-37tfw0ft22-37tfw0ft22.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\5e0f0rue5s-{0}-hrwsygsryq-hrwsygsryq.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\5bln5dis56-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\1ll0toty3e-{0}-ft3s53vfgj-ft3s53vfgj.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\wsxj7nabjp-{0}-6cfz1n2cew-6cfz1n2cew.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\5eftiojnsz-{0}-6pdc2jztkx-6pdc2jztkx.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\ltc94t5sn9-{0}-493y06b0oq-493y06b0oq.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\91n0yw93v5-{0}-iovd86k7lj-iovd86k7lj.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\3nycb2d4cq-{0}-vr1egmr9el-vr1egmr9el.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\yuvhz18dnc-{0}-kbrnm935zg-kbrnm935zg.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\6wns7a7sth-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\xk09rwvpqv-{0}-y7v9cxd14o-y7v9cxd14o.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\o6inte5d55-{0}-notf2xhcfb-notf2xhcfb.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\b8avbk6xxl-{0}-h1s4sie4z3-h1s4sie4z3.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\qorl64hgfp-{0}-63fj8s7r0e-63fj8s7r0e.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\c2awc3417y-{0}-0j3bgjxly4-0j3bgjxly4.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\bbyook9lgx-{0}-47otxtyo56-47otxtyo56.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\yeb6iengqh-{0}-4v8eqarkd7-4v8eqarkd7.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\hu5mr5dqd2-{0}-356vix0kms-356vix0kms.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\x8ssilp1zx-{0}-83jwlth58m-83jwlth58m.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\0rahunjg1r-{0}-mrlpezrjn3-mrlpezrjn3.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\9d77mex1hj-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\0ra9xqqkkm-{0}-ag7o75518u-ag7o75518u.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\sncrs3wiug-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\candrqwman-{0}-0i3buxo5is-0i3buxo5is.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\ac6s9jyeom-{0}-o1o13a6vjx-o1o13a6vjx.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\gqo0bp838a-{0}-ttgo8qnofa-ttgo8qnofa.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\f2aof3l6w0-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\v107yk7gar-{0}-muycvpuwrr-muycvpuwrr.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\n334sh6gor-{0}-87fc7y1x7t-87fc7y1x7t.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\iyhcmyergj-{0}-mlv21k5csn-mlv21k5csn.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\jkumnl6dfr-{0}-u2xjt0500m-u2xjt0500m.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\4vb2dvmov6-{0}-u2xjt0500m-u2xjt0500m.gz
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.build.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.build.json.cache
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.development.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\swae.build.ex.cache
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-tim.C2C8441D.Up2Date
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.dll
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\refint\Real-time Collaboration Dashboard.dll
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.pdb
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.genruntimeconfig.cache
+E:\_General\Fresher_Net\Du_An_Test\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\ref\Real-time Collaboration Dashboard.dll
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\appsettings.Development.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\appsettings.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.staticwebassets.endpoints.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.staticwebassets.runtime.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.exe
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.deps.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.runtimeconfig.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.dll
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Real-time Collaboration Dashboard.pdb
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.csproj.AssemblyReference.cache
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\rpswa.dswa.cache.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.GeneratedMSBuildEditorConfig.editorconfig
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.AssemblyInfoInputs.cache
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.AssemblyInfo.cs
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.csproj.CoreCompileInputs.cache
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.MvcApplicationPartsAssemblyInfo.cache
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.RazorAssemblyInfo.cache
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.RazorAssemblyInfo.cs
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\rjimswa.dswa.cache.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\scopedcss\bundle\Real-time Collaboration Dashboard.styles.css
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\scopedcss\projectbundle\Real-time Collaboration Dashboard.bundle.scp.css
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\x6pc8cfdak-{0}-b9sayid5wm-b9sayid5wm.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\jyudtmspkm-{0}-61n19gt1b8-61n19gt1b8.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\6vb8njf2tc-{0}-xtxxf3hu2r-xtxxf3hu2r.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\zpmkah2jb0-{0}-bqjiyaj88i-bqjiyaj88i.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\hpwmzmtoyn-{0}-c2jlpeoesf-c2jlpeoesf.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\11gyrh8sff-{0}-erw9l3u2r3-erw9l3u2r3.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\xsuekjr615-{0}-aexeepp0ev-aexeepp0ev.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\zuvwtac78v-{0}-d7shbmvgxk-d7shbmvgxk.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\bp0d70cow1-{0}-ausgxo2sd3-ausgxo2sd3.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\znuafp4gak-{0}-k8d9w2qqmf-k8d9w2qqmf.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\cqo0cvqqwn-{0}-cosvhxvwiu-cosvhxvwiu.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\lk7ay0nxlr-{0}-ub07r2b239-ub07r2b239.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\jdfw68zzot-{0}-fvhpjtyr6v-fvhpjtyr6v.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\yklikeu1lj-{0}-b7pk76d08c-b7pk76d08c.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\ihs2m2llvu-{0}-fsbi9cje9m-fsbi9cje9m.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\al1iu7jyqb-{0}-rzd6atqjts-rzd6atqjts.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\4hp4p0eucf-{0}-ee0r1s7dh0-ee0r1s7dh0.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\y66g8k6it4-{0}-dxx9fxp4il-dxx9fxp4il.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\amuo90kh0v-{0}-jd9uben2k1-jd9uben2k1.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\btmjpo4m4q-{0}-khv3u5hwcm-khv3u5hwcm.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\0yskqf7zo2-{0}-r4e9w2rdcm-r4e9w2rdcm.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\2kmc0e6ohn-{0}-lcd1t2u6c8-lcd1t2u6c8.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\bhd4spb7jy-{0}-c2oey78nd0-c2oey78nd0.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\jswgp5cwrp-{0}-tdbxkamptv-tdbxkamptv.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\yem05o1puk-{0}-j5mq2jizvt-j5mq2jizvt.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\6x38vckpwx-{0}-06098lyss8-06098lyss8.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\lz6jb16vue-{0}-nvvlpmu67g-nvvlpmu67g.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\hmfge6p5u2-{0}-s35ty4nyc5-s35ty4nyc5.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\m0hhrq111m-{0}-pj5nd1wqec-pj5nd1wqec.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\7776rgcp4q-{0}-46ein0sx1k-46ein0sx1k.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\cn90nudwdq-{0}-v0zj4ognzu-v0zj4ognzu.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\d2lcd23mw8-{0}-37tfw0ft22-37tfw0ft22.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\5e0f0rue5s-{0}-hrwsygsryq-hrwsygsryq.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\5bln5dis56-{0}-pk9g2wxc8p-pk9g2wxc8p.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\1ll0toty3e-{0}-ft3s53vfgj-ft3s53vfgj.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\wsxj7nabjp-{0}-6cfz1n2cew-6cfz1n2cew.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\5eftiojnsz-{0}-6pdc2jztkx-6pdc2jztkx.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\ltc94t5sn9-{0}-493y06b0oq-493y06b0oq.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\91n0yw93v5-{0}-iovd86k7lj-iovd86k7lj.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\3nycb2d4cq-{0}-vr1egmr9el-vr1egmr9el.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\yuvhz18dnc-{0}-kbrnm935zg-kbrnm935zg.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\6wns7a7sth-{0}-jj8uyg4cgr-jj8uyg4cgr.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\xk09rwvpqv-{0}-y7v9cxd14o-y7v9cxd14o.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\o6inte5d55-{0}-notf2xhcfb-notf2xhcfb.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\b8avbk6xxl-{0}-h1s4sie4z3-h1s4sie4z3.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\qorl64hgfp-{0}-63fj8s7r0e-63fj8s7r0e.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\c2awc3417y-{0}-0j3bgjxly4-0j3bgjxly4.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\bbyook9lgx-{0}-47otxtyo56-47otxtyo56.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\yeb6iengqh-{0}-4v8eqarkd7-4v8eqarkd7.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\hu5mr5dqd2-{0}-356vix0kms-356vix0kms.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\x8ssilp1zx-{0}-83jwlth58m-83jwlth58m.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\0rahunjg1r-{0}-mrlpezrjn3-mrlpezrjn3.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\9d77mex1hj-{0}-lzl9nlhx6b-lzl9nlhx6b.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\0ra9xqqkkm-{0}-ag7o75518u-ag7o75518u.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\sncrs3wiug-{0}-x0q3zqp4vz-x0q3zqp4vz.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\candrqwman-{0}-0i3buxo5is-0i3buxo5is.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\ac6s9jyeom-{0}-o1o13a6vjx-o1o13a6vjx.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\gqo0bp838a-{0}-ttgo8qnofa-ttgo8qnofa.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\f2aof3l6w0-{0}-2z0ns9nrw6-2z0ns9nrw6.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\v107yk7gar-{0}-muycvpuwrr-muycvpuwrr.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\n334sh6gor-{0}-87fc7y1x7t-87fc7y1x7t.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\iyhcmyergj-{0}-mlv21k5csn-mlv21k5csn.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\jkumnl6dfr-{0}-u2xjt0500m-u2xjt0500m.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\compressed\4vb2dvmov6-{0}-u2xjt0500m-u2xjt0500m.gz
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.build.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.build.json.cache
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.development.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\swae.build.ex.cache
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-tim.C2C8441D.Up2Date
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.dll
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\refint\Real-time Collaboration Dashboard.dll
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.pdb
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\Real-time Collaboration Dashboard.genruntimeconfig.cache
+E:\_General\Fresher_Net\Real-time Collaboration Dashboard\Real-time Collaboration Dashboard\obj\Debug\net10.0\ref\Real-time Collaboration Dashboard.dll

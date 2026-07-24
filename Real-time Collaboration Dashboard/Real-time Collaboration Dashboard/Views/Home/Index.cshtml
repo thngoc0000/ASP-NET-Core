@@ -1,0 +1,141 @@
+﻿@model IEnumerable<Real_time_Collaboration_Dashboard.Models.TaskItem>
+@{
+    ViewData["Title"] = "Real-time Task Board";
+}
+
+<div class="container mt-4">
+    <h2 class="text-center mb-4">🚀 Real-time Task Board</h2>
+
+    <!-- Form tạo công việc -->
+    <div class="row justify-content-center mb-4">
+        <div class="col-md-6">
+            <div class="input-group">
+                <input type="text" id="taskTitle" class="form-control" placeholder="Nhập tên công việc mới...">
+                <button class="btn btn-primary" onclick="addNewTask()">Thêm Task</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 3 Cột Trạng thái -->
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-header bg-secondary text-white font-weight-bold">📌 Cần làm (Todo)</div>
+                <div class="card-body" id="col-Todo" style="min-height: 200px;">
+                    @foreach (var task in Model.Where(t => t.Status == "Todo"))
+                    {
+                        <div class="card mb-2 task-card" id="task-@task.Id">
+                            <div class="card-body p-2 d-flex justify-content-between align-items-center">
+                                <span>@task.Title</span>
+                                <button class="btn btn-sm btn-outline-primary" onclick="moveTask(@task.Id, 'InProgress')">➡️</button>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-header bg-info text-white font-weight-bold">⚡ Đang làm (In Progress)</div>
+                <div class="card-body" id="col-InProgress" style="min-height: 200px;">
+                    @foreach (var task in Model.Where(t => t.Status == "InProgress"))
+                    {
+                        <div class="card mb-2 task-card" id="task-@task.Id">
+                            <div class="card-body p-2 d-flex justify-content-between align-items-center">
+                                <span>@task.Title</span>
+                                <button class="btn btn-sm btn-outline-success" onclick="moveTask(@task.Id, 'Done')">✅</button>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-header bg-success text-white font-weight-bold">🎉 Hoàn thành (Done)</div>
+                <div class="card-body" id="col-Done" style="min-height: 200px;">
+                    @foreach (var task in Model.Where(t => t.Status == "Done"))
+                    {
+                        <div class="card mb-2 task-card" id="task-@task.Id">
+                            <div class="card-body p-2">
+                                <span class="text-decoration-line-through">@task.Title</span>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Nhúng thư viện SignalR Client từ CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
+
+<script>
+    // 1. Khởi tạo kết nối SignalR
+    const connection = new signalR.HubConnectionBuilder()
+    .withUrl("/taskHub")
+    .build();
+
+    // 2. Lắng nghe sự kiện từ Server
+    connection.on("ReceiveTaskUpdate", (action, task) => {
+    if (action === "created") {
+    renderTaskCard(task);
+    } else if (action === "updated") {
+    const existingCard = document.getElementById(`task-${task.id}`);
+    if (existingCard) existingCard.remove();
+    renderTaskCard(task);
+    }
+    });
+
+    connection.start().catch(err => console.error(err.toString()));
+
+    // Render thẻ HTML cho Task mới hoặc Task vừa chuyển cột
+    function renderTaskCard(task) {
+    const targetCol = document.getElementById(`col-${task.status}`);
+    if (!targetCol) return;
+
+    let btnHtml = '';
+    if (task.status === 'Todo') {
+    btnHtml = `<button class="btn btn-sm btn-outline-primary" onclick="moveTask(${task.id}, 'InProgress')">➡️</button>`;
+    } else if (task.status === 'InProgress') {
+    btnHtml = `<button class="btn btn-sm btn-outline-success" onclick="moveTask(${task.id}, 'Done')">✅</button>`;
+    }
+
+    const titleStyle = task.status === 'Done' ? 'class="text-decoration-line-through"' : '';
+
+    const cardHtml = `
+    <div class="card mb-2 task-card" id="task-${task.id}">
+    <div class="card-body p-2 d-flex justify-content-between align-items-center">
+    <span ${titleStyle}>${task.title}</span>
+    ${btnHtml}
+    </div>
+    </div>
+    `;
+    targetCol.insertAdjacentHTML('beforeend', cardHtml);
+    }
+
+    // Gọi API tạo mới
+    async function addNewTask() {
+    const titleInput = document.getElementById('taskTitle');
+    if (!titleInput.value.trim()) return;
+
+    await fetch('/Home/CreateTask', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ title: titleInput.value, status: 'Todo' })
+    });
+    titleInput.value = '';
+    }
+
+    // Gọi API cập nhật trạng thái
+    async function moveTask(id, newStatus) {
+    await fetch('/Home/UpdateStatus', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ id: id, status: newStatus })
+    });
+    }
+</script>
