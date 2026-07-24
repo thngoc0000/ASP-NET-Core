@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Real-time Collaboration Dashboard")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ce80488feec68340bac729ea9abfdc967a1b55b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Real-time Collaboration Dashboard")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Real-time Collaboration Dashboard")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

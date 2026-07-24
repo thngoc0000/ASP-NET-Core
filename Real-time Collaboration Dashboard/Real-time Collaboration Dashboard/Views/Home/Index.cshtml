@@ -3,65 +3,247 @@
     ViewData["Title"] = "Real-time Task Board";
 }
 
-<div class="container mt-4">
-    <h2 class="text-center mb-4">🚀 Real-time Task Board</h2>
+<!-- Google Fonts & Font Awesome Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-    <!-- Form tạo công việc -->
-    <div class="row justify-content-center mb-4">
-        <div class="col-md-6">
-            <div class="input-group">
-                <input type="text" id="taskTitle" class="form-control" placeholder="Nhập tên công việc mới...">
-                <button class="btn btn-primary" onclick="addNewTask()">Thêm Task</button>
+<style>
+    body {
+        font-family: 'Plus Jakarta Sans', sans-serif;
+        background-color: #f4f6f9;
+        color: #334155;
+    }
+
+    /* Header styling */
+    .board-header {
+        background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+        color: white;
+        padding: 2.5rem 1.5rem;
+        border-radius: 1rem;
+        box-shadow: 0 10px 25px -5px rgba(79, 70, 229, 0.3);
+        margin-bottom: 2rem;
+    }
+
+    .board-title {
+        font-weight: 700;
+        font-size: 2.25rem;
+        letter-spacing: -0.025em;
+    }
+
+    /* Custom Input Group */
+    .input-box {
+        background: rgba(255, 255, 255, 0.15);
+        backdrop-filter: blur(10px);
+        padding: 0.5rem;
+        border-radius: 0.75rem;
+        border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .input-box input {
+        border: none;
+        background: white;
+        border-radius: 0.5rem !important;
+        padding: 0.75rem 1rem;
+        font-size: 0.95rem;
+    }
+
+    .input-box input:focus {
+        box-shadow: none;
+    }
+
+    .btn-create {
+        background-color: #10b981;
+        border: none;
+        border-radius: 0.5rem !important;
+        padding: 0.75rem 1.5rem;
+        font-weight: 600;
+        color: white;
+        transition: all 0.2s ease;
+    }
+
+    .btn-create:hover {
+        background-color: #059669;
+        transform: translateY(-1px);
+    }
+
+    /* Column Styles */
+    .column-wrapper {
+        background-color: #ebf0f5;
+        border-radius: 1rem;
+        padding: 1.25rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        border: 1px solid #e2e8f0;
+    }
+
+    .column-header {
+        font-weight: 700;
+        font-size: 1.05rem;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid #cbd5e1;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    /* Pillar Indicators */
+    .col-todo .column-header { color: #475569; border-color: #cbd5e1; }
+    .col-inprogress .column-header { color: #0284c7; border-color: #38bdf8; }
+    .col-done .column-header { color: #16a34a; border-color: #4ade80; }
+
+    .task-container {
+        min-height: 400px;
+        max-height: 600px;
+        overflow-y: auto;
+        padding-right: 0.25rem;
+    }
+
+    /* Custom Scrollbar */
+    .task-container::-webkit-scrollbar {
+        width: 5px;
+    }
+    .task-container::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 10px;
+    }
+
+    /* Task Card Design */
+    .custom-card {
+        background-color: white;
+        border: 1px solid #e2e8f0;
+        border-radius: 0.75rem;
+        padding: 1rem;
+        margin-bottom: 0.75rem;
+        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+        animation: fadeIn 0.3s ease-in-out;
+    }
+
+    .custom-card:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.08);
+        border-color: #cbd5e1;
+    }
+
+    .task-text {
+        font-weight: 500;
+        color: #1e293b;
+        word-break: break-word;
+    }
+
+    /* Action Buttons inside Card */
+    .action-btn {
+        border: none;
+        background: #f1f5f9;
+        color: #475569;
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+    }
+
+    .action-btn:hover {
+        background: #4f46e5;
+        color: white;
+        transform: scale(1.1);
+    }
+
+    .action-btn.done-btn:hover {
+        background: #10b981;
+    }
+
+    /* Completed state */
+    .task-done {
+        text-decoration: line-through;
+        color: #94a3b8;
+    }
+
+    @@keyframes fadeIn {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+
+<div class="container py-4">
+    <!-- Header & Create Form -->
+    <div class="board-header text-center">
+        <h1 class="board-title mb-2"><i class="fa-solid fa-kanban me-2"></i>Task Board</h1>
+        <p class="text-white-50 mb-4">Quản lý công việc thời gian thực với SignalR</p>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-7 col-lg-6">
+                <div class="input-group input-box">
+                    <input type="text" id="taskTitle" class="form-control" placeholder="Thêm công việc mới cần làm..." onkeypress="handleKeyPress(event)">
+                    <button class="btn btn-create ms-2" onclick="addNewTask()">
+                        <i class="fa-solid fa-plus me-1"></i> Thêm
+                    </button>
+                </div>
             </div>
         </div>
     </div>
 
-    <!-- 3 Cột Trạng thái -->
-    <div class="row">
+    <!-- Task Columns -->
+    <div class="row g-4">
+        <!-- Todo Column -->
         <div class="col-md-4">
-            <div class="card bg-light">
-                <div class="card-header bg-secondary text-white font-weight-bold">📌 Cần làm (Todo)</div>
-                <div class="card-body" id="col-Todo" style="min-height: 200px;">
+            <div class="column-wrapper col-todo">
+                <div class="column-header">
+                    <span><i class="fa-regular fa-circle me-2"></i>Cần làm</span>
+                    <span class="badge bg-secondary rounded-pill" id="count-Todo">@Model.Count(t => t.Status == "Todo")</span>
+                </div>
+                <div class="task-container" id="col-Todo">
                     @foreach (var task in Model.Where(t => t.Status == "Todo"))
                     {
-                        <div class="card mb-2 task-card" id="task-@task.Id">
-                            <div class="card-body p-2 d-flex justify-content-between align-items-center">
-                                <span>@task.Title</span>
-                                <button class="btn btn-sm btn-outline-primary" onclick="moveTask(@task.Id, 'InProgress')">➡️</button>
-                            </div>
+                        <div class="custom-card d-flex justify-content-between align-items-center" id="task-@task.Id">
+                            <span class="task-text">@task.Title</span>
+                            <button class="action-btn" title="Chuyển sang Đang làm" onclick="moveTask(@task.Id, 'InProgress')">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
                         </div>
                     }
                 </div>
             </div>
         </div>
 
+        <!-- InProgress Column -->
         <div class="col-md-4">
-            <div class="card bg-light">
-                <div class="card-header bg-info text-white font-weight-bold">⚡ Đang làm (In Progress)</div>
-                <div class="card-body" id="col-InProgress" style="min-height: 200px;">
+            <div class="column-wrapper col-inprogress">
+                <div class="column-header">
+                    <span><i class="fa-solid fa-spinner me-2"></i>Đang thực hiện</span>
+                    <span class="badge bg-info text-dark rounded-pill" id="count-InProgress">@Model.Count(t => t.Status == "InProgress")</span>
+                </div>
+                <div class="task-container" id="col-InProgress">
                     @foreach (var task in Model.Where(t => t.Status == "InProgress"))
                     {
-                        <div class="card mb-2 task-card" id="task-@task.Id">
-                            <div class="card-body p-2 d-flex justify-content-between align-items-center">
-                                <span>@task.Title</span>
-                                <button class="btn btn-sm btn-outline-success" onclick="moveTask(@task.Id, 'Done')">✅</button>
-                            </div>
+                        <div class="custom-card d-flex justify-content-between align-items-center" id="task-@task.Id">
+                            <span class="task-text">@task.Title</span>
+                            <button class="action-btn done-btn" title="Hoàn thành" onclick="moveTask(@task.Id, 'Done')">
+                                <i class="fa-solid fa-check"></i>
+                            </button>
                         </div>
                     }
                 </div>
             </div>
         </div>
 
+        <!-- Done Column -->
         <div class="col-md-4">
-            <div class="card bg-light">
-                <div class="card-header bg-success text-white font-weight-bold">🎉 Hoàn thành (Done)</div>
-                <div class="card-body" id="col-Done" style="min-height: 200px;">
+            <div class="column-wrapper col-done">
+                <div class="column-header">
+                    <span><i class="fa-solid fa-circle-check me-2"></i>Hoàn thành</span>
+                    <span class="badge bg-success rounded-pill" id="count-Done">@Model.Count(t => t.Status == "Done")</span>
+                </div>
+                <div class="task-container" id="col-Done">
                     @foreach (var task in Model.Where(t => t.Status == "Done"))
                     {
-                        <div class="card mb-2 task-card" id="task-@task.Id">
-                            <div class="card-body p-2">
-                                <span class="text-decoration-line-through">@task.Title</span>
-                            </div>
+                        <div class="custom-card d-flex justify-content-between align-items-center" id="task-@task.Id">
+                            <span class="task-text task-done">@task.Title</span>
+                            <i class="fa-solid fa-check-double text-success me-2"></i>
                         </div>
                     }
                 </div>
@@ -70,72 +252,80 @@
     </div>
 </div>
 
-<!-- Nhúng thư viện SignalR Client từ CDN -->
+<!-- SignalR CDN -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/8.0.0/signalr.min.js"></script>
 
 <script>
-    // 1. Khởi tạo kết nối SignalR
     const connection = new signalR.HubConnectionBuilder()
-    .withUrl("/taskHub")
-    .build();
+        .withUrl("/taskHub")
+        .build();
 
-    // 2. Lắng nghe sự kiện từ Server
     connection.on("ReceiveTaskUpdate", (action, task) => {
-    if (action === "created") {
-    renderTaskCard(task);
-    } else if (action === "updated") {
-    const existingCard = document.getElementById(`task-${task.id}`);
-    if (existingCard) existingCard.remove();
-    renderTaskCard(task);
-    }
+        if (action === "created") {
+            renderTaskCard(task);
+        } else if (action === "updated") {
+            const existingCard = document.getElementById(`task-${task.id}`);
+            if (existingCard) existingCard.remove();
+            renderTaskCard(task);
+        }
+        updateCounters();
     });
 
     connection.start().catch(err => console.error(err.toString()));
 
-    // Render thẻ HTML cho Task mới hoặc Task vừa chuyển cột
     function renderTaskCard(task) {
-    const targetCol = document.getElementById(`col-${task.status}`);
-    if (!targetCol) return;
+        const targetCol = document.getElementById(`col-${task.status}`);
+        if (!targetCol) return;
 
-    let btnHtml = '';
-    if (task.status === 'Todo') {
-    btnHtml = `<button class="btn btn-sm btn-outline-primary" onclick="moveTask(${task.id}, 'InProgress')">➡️</button>`;
-    } else if (task.status === 'InProgress') {
-    btnHtml = `<button class="btn btn-sm btn-outline-success" onclick="moveTask(${task.id}, 'Done')">✅</button>`;
+        let actionHtml = '';
+        if (task.status === 'Todo') {
+            actionHtml = `<button class="action-btn" title="Chuyển sang Đang làm" onclick="moveTask(${task.id}, 'InProgress')"><i class="fa-solid fa-arrow-right"></i></button>`;
+        } else if (task.status === 'InProgress') {
+            actionHtml = `<button class="action-btn done-btn" title="Hoàn thành" onclick="moveTask(${task.id}, 'Done')"><i class="fa-solid fa-check"></i></button>`;
+        } else if (task.status === 'Done') {
+            actionHtml = `<i class="fa-solid fa-check-double text-success me-2"></i>`;
+        }
+
+        const titleClass = task.status === 'Done' ? 'task-text task-done' : 'task-text';
+
+        const cardHtml = `
+            <div class="custom-card d-flex justify-content-between align-items-center" id="task-${task.id}">
+                <span class="${titleClass}">${task.title}</span>
+                ${actionHtml}
+            </div>
+        `;
+        targetCol.insertAdjacentHTML('afterbegin', cardHtml);
     }
 
-    const titleStyle = task.status === 'Done' ? 'class="text-decoration-line-through"' : '';
-
-    const cardHtml = `
-    <div class="card mb-2 task-card" id="task-${task.id}">
-    <div class="card-body p-2 d-flex justify-content-between align-items-center">
-    <span ${titleStyle}>${task.title}</span>
-    ${btnHtml}
-    </div>
-    </div>
-    `;
-    targetCol.insertAdjacentHTML('beforeend', cardHtml);
-    }
-
-    // Gọi API tạo mới
     async function addNewTask() {
-    const titleInput = document.getElementById('taskTitle');
-    if (!titleInput.value.trim()) return;
+        const titleInput = document.getElementById('taskTitle');
+        if (!titleInput.value.trim()) return;
 
-    await fetch('/Home/CreateTask', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ title: titleInput.value, status: 'Todo' })
-    });
-    titleInput.value = '';
+        await fetch('/Home/CreateTask', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ title: titleInput.value, status: 'Todo' })
+        });
+        titleInput.value = '';
     }
 
-    // Gọi API cập nhật trạng thái
     async function moveTask(id, newStatus) {
-    await fetch('/Home/UpdateStatus', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ id: id, status: newStatus })
-    });
+        await fetch('/Home/UpdateStatus', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ id: id, status: newStatus })
+        });
+    }
+
+    function handleKeyPress(e) {
+        if (e.key === 'Enter') {
+            addNewTask();
+        }
+    }
+
+    function updateCounters() {
+        document.getElementById('count-Todo').innerText = document.getElementById('col-Todo').children.length;
+        document.getElementById('count-InProgress').innerText = document.getElementById('col-InProgress').children.length;
+        document.getElementById('count-Done').innerText = document.getElementById('col-Done').children.length;
     }
 </script>

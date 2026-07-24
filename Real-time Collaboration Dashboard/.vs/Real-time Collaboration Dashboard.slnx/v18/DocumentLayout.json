@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\_General\\Fresher_Net\\Real-time Collaboration Dashboard\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FCD74A05-3FC8-DB42-7D48-C34E5F71600E}|Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard.csproj|e:\\_general\\fresher_net\\real-time collaboration dashboard\\real-time collaboration dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{FCD74A05-3FC8-DB42-7D48-C34E5F71600E}|Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard.csproj|solutionrelative:real-time collaboration dashboard\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FCD74A05-3FC8-DB42-7D48-C34E5F71600E}|Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard.csproj|e:\\_general\\fresher_net\\real-time collaboration dashboard\\real-time collaboration dashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{FCD74A05-3FC8-DB42-7D48-C34E5F71600E}|Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard.csproj|solutionrelative:real-time collaboration dashboard\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -23,19 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\_General\\Fresher_Net\\Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Real-time Collaboration Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\_General\\Fresher_Net\\Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Real-time Collaboration Dashboard\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-07-24T03:29:04.826Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\_General\\Fresher_Net\\Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Real-time Collaboration Dashboard\\Views\\Home\\Index.cshtml",
               "ToolTip": "E:\\_General\\Fresher_Net\\Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Real-time Collaboration Dashboard\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2026-07-24T02:39:47.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "E:\\_General\\Fresher_Net\\Real-time Collaboration Dashboard\\Real-time Collaboration Dashboard\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Real-time Collaboration Dashboard\\Controllers\\HomeController.cs",
